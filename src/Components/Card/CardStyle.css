@@ -1,0 +1,83 @@
+.container {
+  background-color: #ff9090;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
+}
+
+.front-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff5e0;
+  height: 200px;
+  width: 150px;
+  margin: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transform-style: preserve-3d; /* Mantieni la 3D anche nei figli */
+  transition: transform 1s;
+  perspective: 1000px; /*no funonzia */
+}
+
+.card-img {
+  flex: 1;
+  height: 100px;
+  margin: 0px;
+}
+
+p.card-id {
+  margin: 0;
+}
+
+h2.card-name {
+  margin: 0;
+}
+
+.card-types {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  text-align: center;
+  border-radius: 10px;
+  width: 60px;
+  height: 22px;
+}
+
+.normal {
+  background-color: grey;
+  color: #f6f6f6;
+}
+.grass {
+  background-color: green;
+  color: #f6f6f6;
+}
+.poison {
+  background-color: purple;
+  color: #f6f6f6;
+}
+.fire {
+  background-color: red;
+  color: #f6f6f6;
+}
+.flying {
+  background-color: aquamarine;
+  color: #f6f6f6;
+}
+.water {
+  background-color: blue;
+  color: #f6f6f6;
+}
+.bug {
+  background-color: chartreuse;
+  color: #f6f6f6;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
