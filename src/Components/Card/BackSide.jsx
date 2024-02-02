@@ -1,4 +1,3 @@
-/*
 const BackSide = ({ arrPokemon }) => {
   return(
     <>
@@ -22,4 +21,3 @@ const BackSide = ({ arrPokemon }) => {
 }
 
 export default BackSide;
-*/

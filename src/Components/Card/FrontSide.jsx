@@ -7,7 +7,6 @@ const FrontSide = ({ item }) => {
   const handleCardClick = (item) => {
     //infoPokemon(item);
     setIsFlipped(!isFlipped);
-    console.log("suca");
   };
 
   const rotateCard = (event) => {

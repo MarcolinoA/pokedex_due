@@ -41,7 +41,6 @@ const Card = () => {
     pokeFun();
   }, [url]);
 
-  //CARD NUOVA POKEDEX DUE
   return (
     <>
       <div className="container">
@@ -50,6 +49,7 @@ const Card = () => {
             <FrontSide item={item} />
           </div>
         ))}
+        
       </div>
     </>
   );

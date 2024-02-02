@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C70039;
+  color: #fff;
+  height: 70px;
+  
+}
+
+.nav-title,
+.search-bar,
+.theme-mode {
+  flex: 1;
+}
+
+.theme-mode {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.nav-title {
+  font-family: 'Open Sans', sans-serif;
+}

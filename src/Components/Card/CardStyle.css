@@ -1,8 +1,7 @@
 .container {
   background-color: #ff9090;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
- 
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .front-side {
@@ -24,15 +23,6 @@
 .card-img {
   flex: 1;
   height: 100px;
-  margin: 0px;
-}
-
-p.card-id {
-  margin: 0;
-}
-
-h2.card-name {
-  margin: 0;
 }
 
 .card-types {
