@@ -1,5 +1,4 @@
 .container {
-  background-color: #ff9090;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -13,7 +12,7 @@
   height: 200px;
   width: 150px;
   margin: 30px;
-  border-radius: 30px;
+  border-radius: 10px 40px 10px 50px;
   cursor: pointer;
   transform-style: preserve-3d; /* Mantieni la 3D anche nei figli */
   transition: transform 1s;
@@ -39,35 +38,119 @@
   height: 22px;
 }
 
+/*colors types*/
 .normal {
-  background-color: grey;
-  color: #f6f6f6;
-}
-.grass {
-  background-color: green;
-  color: #f6f6f6;
-}
-.poison {
-  background-color: purple;
-  color: #f6f6f6;
-}
-.fire {
-  background-color: red;
-  color: #f6f6f6;
-}
-.flying {
-  background-color: aquamarine;
-  color: #f6f6f6;
-}
-.water {
-  background-color: blue;
-  color: #f6f6f6;
-}
-.bug {
-  background-color: chartreuse;
+  background-color: #77775f;
   color: #f6f6f6;
 }
 
+.grass {
+  background-color: #3a880e;
+  color: #f6f6f6;
+}
+
+.poison {
+  background-color: #a33ea1;
+  color: #f6f6f6;
+}
+
+.fire {
+  background-color: #ee5c30;
+  color: #f6f6f6;
+}
+
+.flying {
+  background-color: #a98ff3;
+  color: #f6f6f6;
+}
+
+.water {
+  background-color: #6390f0;
+  color: #f6f6f6;
+}
+
+.bug {
+  background-color: #a6b91a;
+  color: #f6f6f6;
+}
+
+.electric {
+  background-color: #f7d02c;
+  color: #f6f6f6;
+}
+
+.ground {
+  background-color: #68531d;
+  color: #f6f6f6;
+}
+
+.fairy {
+  background-color: #d685ad;
+  color: #f6f6f6;
+}
+
+.fighting {
+  background-color: #c22e28;
+  color: #f6f6f6;
+}
+
+.psychic {
+  background-color: #F95587;
+  color: #f6f6f6;
+}
+
+.rock {
+  background-color: #b6a136;
+  color: #f6f6f6;
+}
+
+.ice {
+  background-color: #96d9d6;
+  color: #f6f6f6;
+}
+
+.dark {
+  background-color: #140f0c;
+  color: #f6f6f6;
+}
+
+.steel {
+  background-color: #b7b7ce;
+  color: #f6f6f6;
+}
+
+.ghost {
+  background-color: #735797;
+  color: #f6f6f6;
+}
+
+.dragon {
+  background-color: #6f35fc;
+  color: #f6f6f6;
+}
+
+/*elemnenti per ruotare*/
 .flipped {
   transform: rotateY(180deg);
+}
+
+.content .back-side {
+  transform: rotateY(180deg);
+}
+
+.abilities {
+  margin-bottom: 10px;
+  color: #c70039;
+}
+
+.abilities-list {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
 }

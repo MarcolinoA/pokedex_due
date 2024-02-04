@@ -3,6 +3,7 @@ import axios from "axios";
 import FrontSide from "./FrontSide";
 import BackSide from "./BackSide";
 import "./CardStyle.css";
+import Button from "../Button/Button";
 
 const Card = () => {
   const [pokeData, setPokeData] = useState([]); //use state per creare l'array dall'api
@@ -13,7 +14,7 @@ const Card = () => {
   const [pokeDex, setPokeDex] = useState();
 
   //questa funzione viene eseguita ad ogni run
-  const pokeFun = async () => {
+  const pokeFun = async (url) => {
     setLoading(true);
     const res = await axios.get(url); //grazie ad axios eseguo una richiesta sull'url
     //setto tutti gli use state in base a cio che mi serve, trovo le informazioni da console.log(res)
@@ -38,8 +39,12 @@ const Card = () => {
 
   //svolge la stessa funzione di uno useEffect ma con questo avevo un errore dato dalla "react strict mode", lo eseguiva due volte al primo render
   useState(() => {
-    pokeFun();
+    pokeFun(url);
   }, [url]);
+
+  const onClickButton = () => {
+    pokeFun(nextUrl);
+  }
 
   return (
     <>
@@ -49,8 +54,8 @@ const Card = () => {
             <FrontSide item={item} />
           </div>
         ))}
-        
       </div>
+      <Button onClick={onClickButton}/>
     </>
   );
 };
