@@ -14,12 +14,9 @@ label {
   align-items: center;
 }
 
-input {
+.inp {
   position: absolute;
   opacity: 0;
-}
-
-.inp {
   width: 40px;
   height: 40px;
 }
@@ -52,8 +49,4 @@ input:checked~.moon-icon {
   border-radius: 50%;
   z-index: -1;
   transition: 1s;
-}
-
-input:checked~.toggle {
-  background: #FFF5E0;
 }

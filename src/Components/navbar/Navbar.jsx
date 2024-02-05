@@ -5,7 +5,7 @@ import SearchBar from "./Search-Bar/SearchBar";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-title">Pokedex Marco</div>
+      <div className="nav-title">Logo</div>
 
       <div className="search-bar">
         <SearchBar />

@@ -1,6 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  margin: 30px;
 }
 
 .front-side {
@@ -9,19 +10,21 @@
   align-items: center;
   justify-content: center;
   background-color: #fff5e0;
-  height: 200px;
-  width: 150px;
+  height: 250px;
+  width: 180px;
   margin: 30px;
-  border-radius: 10px 40px 10px 50px;
+  margin-top: 100px;
+  border-radius: 10px 40px 10px 45px;
   cursor: pointer;
   transform-style: preserve-3d; /* Mantieni la 3D anche nei figli */
   transition: transform 1s;
   perspective: 1000px; /*no funonzia */
+  box-shadow: 0 5px 15px #c50038;
 }
 
 .card-img {
   flex: 1;
-  height: 100px;
+  height: 130px;
 }
 
 .card-types {
@@ -95,7 +98,7 @@
 }
 
 .psychic {
-  background-color: #F95587;
+  background-color: #f95587;
   color: #f6f6f6;
 }
 

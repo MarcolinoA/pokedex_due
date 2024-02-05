@@ -16,11 +16,9 @@ const BtnTheme = () => {
   };
 
   const ToggleTheme = (e) => {
-    console.log("suca");
     if (e.target.checked) setDarkMode();
     else setLightMode();
   };
-  //come porca troia faccio a lavorare sulle svg ca no se spostane mancu pe lu cazzu
 
   return (
     <div>

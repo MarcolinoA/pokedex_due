@@ -9,15 +9,15 @@ const SearchBar = () => {
 
   const handleChange = (value) => {
     setInput(value);
-    //
+    console.log(input);
   };
 
   return (
     <div className="input-wrapper">
       <SearchIcon />
       <input
+        type="text"
         className="input"
-        placeholder="type"
         onChange={(e) => handleChange(e.target.value)}
       />
     </div>

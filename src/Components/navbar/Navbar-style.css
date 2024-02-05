@@ -1,10 +1,13 @@
 .navbar {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #C70039;
   color: #fff;
-  height: 70px;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav-title,
