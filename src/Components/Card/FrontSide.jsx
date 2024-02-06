@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./CardStyle.css";
-import BackSide from "./BackSide";
 
 const FrontSide = ({ item }) => {
   const [isFlipped, setIsFlipped] = useState(false);

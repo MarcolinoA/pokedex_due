@@ -13,10 +13,8 @@ input {
   border: none;
   height: 100%;
   font-size: 20px;
-  width: 100%;
+  width: 80%;
   color: #FFF5E0;
-  width: 160px;
-  height: 30px;
 }
 
 input:focus {
@@ -30,8 +28,6 @@ input:focus {
   height: 30px;
 }
 
-/*
-abilitare dopo aver attivato la lista e completato la funzionalita ricerca
 .results-list{
   width: 100%;
   background-color: white;
@@ -50,4 +46,4 @@ abilitare dopo aver attivato la lista e completato la funzionalita ricerca
 .search-result:hover{
   background-color: #efefef;
 }
-*/
+

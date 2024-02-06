@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
 import FrontSide from "./FrontSide";
-import BackSide from "./BackSide";
 import "./CardStyle.css";
 import Button from "../Button/Button";
 
